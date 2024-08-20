@@ -1,13 +1,7 @@
-# flask-vote-app
+# Flask-Vote-App
 A sample web poll application written in Python (Flask).
 
 Users will be prompted with a poll question and related options. They can vote preferred option(s) and see poll results as a chart. Poll results are then loaded into an internal DB based on sqlite. As alternative, the application can store poll results in an external MySQL database.
-
-The repo has been modified to make it easy to build and run on OpenShift.
-
-The application has also been primed to be easily bound to RDS using the AWS's Service Catalog command line, svcat.  Here is an [example](https://github.com/sjbylo/lab-ocp4/blob/master/workshop/content/exercises/70-add-cloud-database.md#bind-to-the-database-service) of that.
-
-This application is intended for demo use only.
 
 [![Docker Repository on Quay](https://quay.io/repository/sjbylo/flask-vote-app/status "Docker Repository on Quay")](https://quay.io/repository/sjbylo/flask-vote-app)
 
